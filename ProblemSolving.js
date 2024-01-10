@@ -68,3 +68,12 @@ else
 {
     console.log("No one wins");
 }
+
+//coding challenge 4:
+
+const bill = 40;
+
+const tip=bill>=50 && bill<=300?(bill*15)/100:(bill*20)/100;
+console.log(tip);
+
+console.log(`Bill is:${bill},Tip is: ${tip},total cost: ${bill+tip}`);
