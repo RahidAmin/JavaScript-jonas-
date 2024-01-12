@@ -26,5 +26,7 @@ const calAge=function(birthYear)
 const birthYear=[1990,1991,1992];
 console.log(calAge(birthYear[1]));
 
-const ages=[calAge(birthYear[0]),calAge(birthYear[1]),calAge(birthYear[birthYear.length-1])];
+//Most Important
+
+const ages=[calAge(birthYear[0]),calAge(birthYear[1]),calAge(birthYear[birthYear.length-1])]; //**Most Importat*
 console.log(ages);
